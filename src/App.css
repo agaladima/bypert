@@ -424,3 +424,11 @@ input {
 .prof-label {
   color: #888;
 }
+
+.profile-page-form {
+  margin-top: 2em;
+  background-color: #222;
+  border: 1px solid #888;
+  border-bottom: none;
+  border-top: none;
+}

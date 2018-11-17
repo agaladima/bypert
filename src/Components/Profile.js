@@ -91,6 +91,12 @@ class Profile extends Component {
     render() {
         return (
           <div>
+            <form className="one-row profile-page-form">
+              <input className="searchURL" type="text" name="searchURL" placeholder="Paste a Craigslist link here" />
+              <span>|</span>
+              <input className="maxPrice" type="number" name="maxPrice" placeholder="Max Price" />
+              <input type="image" alt="background image" src="https://cdn1.iconfinder.com/data/icons/hawcons/32/698627-icon-111-search-512.png" className="button-search" />
+            </form>
             <Row>
               <Col xs={12} md={6}>
                 <div className="profile-form">
